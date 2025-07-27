@@ -1,0 +1,106 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Ácido Sulfúrico H2SO4",
+      "categoria": "Ácidos",
+      "concentracao": "98%",
+      "lote": "AS001-2024",
+      "fornecedor": "ChemCorp Ltda",
+      "dataVencimento": "2024-12-31",
+      "quantidade": 45,
+      "unidade": "L",
+      "estoqueMinimo": 20,
+      "status": "normal",
+      "qualidade": "aprovado",
+      "ultimaAnalise": "2024-01-15",
+      "preco": 85.50,
+      "localizacao": "A1-01"
+    },
+    {
+      "id": 2,
+      "nome": "Hidróxido de Sódio NaOH",
+      "categoria": "Bases",
+      "concentracao": "50%",
+      "lote": "HS002-2024",
+      "fornecedor": "Química Brasil S.A",
+      "dataVencimento": "2025-03-15",
+      "quantidade": 12,
+      "unidade": "Kg",
+      "estoqueMinimo": 15,
+      "status": "baixo",
+      "qualidade": "aprovado",
+      "ultimaAnalise": "2024-01-10",
+      "preco": 120.00,
+      "localizacao": "B2-03"
+    },
+    {
+      "id": 3,
+      "nome": "Cloreto de Cálcio CaCl2",
+      "categoria": "Sais",
+      "concentracao": "95%",
+      "lote": "CC003-2024",
+      "fornecedor": "IndChem",
+      "dataVencimento": "2025-06-20",
+      "quantidade": 78,
+      "unidade": "Kg",
+      "estoqueMinimo": 30,
+      "status": "normal",
+      "qualidade": "pendente",
+      "ultimaAnalise": "2024-01-20",
+      "preco": 45.80,
+      "localizacao": "C1-05"
+    },
+    {
+      "id": 4,
+      "nome": "Acetona C3H6O",
+      "categoria": "Solventes",
+      "concentracao": "99.5%",
+      "lote": "AC004-2024",
+      "fornecedor": "SolvChem",
+      "dataVencimento": "2024-09-30",
+      "quantidade": 3,
+      "unidade": "L",
+      "estoqueMinimo": 10,
+      "status": "critico",
+      "qualidade": "aprovado",
+      "ultimaAnalise": "2024-01-18",
+      "preco": 67.90,
+      "localizacao": "D3-02"
+    }
+  ],
+  "movimentacoes": [
+    {
+      "id": 1,
+      "produtoId": 1,
+      "tipo": "entrada",
+      "quantidade": 50,
+      "data": "2024-01-10",
+      "usuario": "João Silva",
+      "observacoes": "Reposição mensal"
+    },
+    {
+      "id": 2,
+      "produtoId": 2,
+      "tipo": "saida",
+      "quantidade": 8,
+      "data": "2024-01-12",
+      "usuario": "Maria Santos",
+      "observacoes": "Produção lote P001"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "cargo": "Gerente de Estoque",
+      "email": "joao@quantika.com"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Santos",
+      "cargo": "Analista de Qualidade",
+      "email": "maria@quantika.com"
+    }
+  ]
+}
